@@ -1,0 +1,25 @@
+@import '../../styles/mixins.scss';
+.input {
+    padding: 14px 16px;
+
+    @include default-text;
+    color: #7e7e7e;
+    border: 1px solid #d0cfcf;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 50px;
+}
+.error {
+    font-size: 16px;
+    color: rgb(219, 49, 49);
+}
+.label {
+    margin-top: 4px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7e7e7e;
+    margin-bottom: 36px;
+}

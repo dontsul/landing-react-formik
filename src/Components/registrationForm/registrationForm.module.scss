@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+
+.formWrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    &__title {
+        padding: 0 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        color: rgba(0, 0, 0, 0.87);
+        text-align: center;
+    }
+    &__inputs {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 140px;
+    }
+}
+@media screen and (min-width: $md-device) {
+    .formWrap {
+        &__inputs {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        &__btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 140px;
+        }
+    }
+}
+
+@media screen and (min-width: $lg-device) {
+    .formWrap {
+        &__inputs {
+            width: 38%;
+        }
+    }
+}
+
+@media screen and (min-width: $xl-device) {
+    .formWrap {
+        &__inputs {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import '../../styles/mixins.scss';
+.title {
+    @include default-text;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 12px;
+}
+.groupRadio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 48px;
+
+    label {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.87);
+        margin-bottom: 8px;
+
+        input {
+            margin-right: 12px;
+        }
+    }
+    .error {
+        margin-top: 4px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: rgb(219, 49, 49);
+    }
+}

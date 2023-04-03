@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.btn {
+    border-radius: $button-border-radius;
+    background-color: $primary-color-button-normal;
+    border: none;
+    width: 90px;
+    margin: 0 4px;
+    padding: 4px 0px;
+    cursor: pointer;
+    @include default-text;
+    color: rgba(0, 0, 0, 0.87);
+    color: white;
+}
+.btn:hover {
+    background-color: $primary-color-button-hover;
+}
+.btn:disabled {
+    background-color: $primary-color-button-disabled;
+}

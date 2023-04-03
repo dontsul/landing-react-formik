@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+.main {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    &__title {
+        padding: 0 20px;
+        margin-bottom: 50px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        color: rgba(0, 0, 0, 0.87);
+        text-align: center;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            width: 120px;
+        }
+    }
+}

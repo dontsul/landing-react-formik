@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.wrap {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+    &__name {
+        @include default-text;
+        color: rgba(0, 0, 0, 0.87);
+        margin-bottom: 20px;
+    }
+    &__position {
+        @include default-text;
+        color: rgba(0, 0, 0, 0.87);
+    }
+    &__email {
+        @include default-text;
+        color: rgba(0, 0, 0, 0.87);
+    }
+    &__phone {
+        @include default-text;
+        color: rgba(0, 0, 0, 0.87);
+    }
+}

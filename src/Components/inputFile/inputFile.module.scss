@@ -1,0 +1,60 @@
+input {
+    padding: 0;
+}
+
+.wrapInputFile {
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 1px solid #d0cfcf;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+    .input {
+        width: 80px;
+        height: 56px;
+        z-index: 100;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .btn {
+        position: relative;
+        margin: -1px -1px;
+        box-sizing: border-box;
+        padding: 14px 16px;
+        height: 100%;
+        width: 84px;
+        border: none;
+        border: 1px solid rgba(0, 0, 0, 0.87);
+        border-radius: 4px 0px 0px 4px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.87);
+    }
+    .nameImg {
+        width: 100%;
+        padding-left: 14px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7e7e7e;
+    }
+}
+.error {
+    margin-top: 4px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: rgb(219, 49, 49);
+}
